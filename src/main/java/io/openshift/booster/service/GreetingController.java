@@ -35,4 +35,9 @@ public class GreetingController {
         String message = String.format(properties.getMessage(), name);
         return new Greeting(message);
     }
+
+    @RequestMapping("/api/test")
+    public String greeting() {
+        return "OK";
+    }
 }
