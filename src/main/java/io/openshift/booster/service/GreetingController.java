@@ -40,4 +40,9 @@ public class GreetingController {
     public String greeting() {
         return "OK";
     }
+
+    @RequestMapping("/api/releoad")
+    public String releaod() {
+        return "OK";
+    }
 }
