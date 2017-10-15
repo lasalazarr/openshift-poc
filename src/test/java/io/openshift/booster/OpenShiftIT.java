@@ -44,6 +44,7 @@ public class OpenShiftIT extends AbstractBoosterApplicationTest {
                         return response.getStatusCode() < 500;
                     } catch (Exception e) {
                         return false;
+
                     }
                 });
 
